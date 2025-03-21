@@ -21,14 +21,14 @@ workflows:
           keychain add-certificates --verbose
       - name: Install pods
         script: |
-          cd DDFortuneGems
+          cd DDFortuneGems-js/frameworks/runtime-src/proj.ios_mac
           pod install --repo-update --verbose
       - name: Set up code signing settings on Xcode project
         script: |
           xcode-project use-profiles --verbose
       - name: Build ipa for distribution
         script: |
-          xcode-project build-ipa --workspace "DDFortuneGems/DDFortuneGems.xcworkspace" --scheme "DDFortuneGems" --config Release --verbose
+          xcode-project build-ipa --workspace "DDFortuneGems-js/frameworks/runtime-src/proj.ios_mac/DDFortuneGems.xcworkspace" --scheme "DDFortuneGems" --config Release --verbose
           
     artifacts:
       - build/ios/ipa/*.ipa
