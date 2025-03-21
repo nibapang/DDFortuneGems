@@ -1,0 +1,5 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../../cocos2d-x/cocos/platform/ios/CCModuleConfigIOS.release.xcconfig"
+#include "../../runtime-src/proj.ios_mac/Pods/Target Support Files/Pods-DDFortuneGems/Pods-DDFortuneGems.release.xcconfig"
