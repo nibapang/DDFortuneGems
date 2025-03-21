@@ -31,8 +31,6 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>DD Fortune Gems need to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.</string>
-	<key>UIApplicationExitsOnSuspend</key>
-	<true/>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -56,13 +54,6 @@
 	<string>LaunchScreen</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
-	<key>UIRequiredDeviceCapabilities</key>
-	<dict>
-		<key>accelerometer</key>
-		<true/>
-		<key>opengles-1</key>
-		<true/>
-	</dict>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
